@@ -44,7 +44,7 @@ header .navbar {
   right: 50%;
   margin-right: 150px;
   position: absolute;
-  background-image: url("/imgs/header-bg-l-desk.svg");
+  background-image: url("../imgs/header-bg-l-desk.svg");
 }
 #header .navbar {
   height: 90px;
@@ -163,7 +163,7 @@ header .navbar {
   font-size: 14px;
   line-height: 33px;
   color: #4c4c4c;
-  background: url("/imgs/arrow-point-to-right.svg") no-repeat top 50% left 0;
+  background: url("../imgs/arrow-point-to-right.svg") no-repeat top 50% left 0;
 }
 #joinUs .row:nth-of-type(3) .panel {
   background: #f5f9fc;

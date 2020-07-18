@@ -1,9 +1,9 @@
-'use strict';
+"use strict";
 var config = {
-    module: {}
-}
+  module: {}
+};
 
 // joinUs
 config.module.joinUs = {
-    url: "/page/joinUs.html"
-}
+  url: "./page/joinUs.html"
+};
