@@ -180,10 +180,12 @@ header .navbar {
 /* #joinUs .row:nth-of-type(4) */
 #joinUs .row:nth-of-type(4) .panel {
   height: 300px;
+  padding: auto;
 }
 #joinUs .row:nth-of-type(4) .panel-body {
-  height: 300px;
+  
 }
+
 #joinUs .footer .panel-body .btn {
   margin-top: 25px;
   height: 60px;
