@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>index</title>
+    <link rel="stylesheet" href="/lib/bootstrap-3.3.7-dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="/css/main.css" />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <header class="row" id="header">
+        <nav class="navbar navbar-default navbar-fixed-top">
+          <div class="container-fluid col-lg-offset-2 col-lg-8">
+            <div class="navbar-header">
+              <button
+                type="button"
+                class="navbar-toggle collapsed"
+                data-toggle="collapse"
+                data-target="#bs-example-navbar-collapse-1"
+                aria-expanded="false"
+              >
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">Brand</a>
+            </div>
+            <div
+              class="collapse navbar-collapse"
+              id="bs-example-navbar-collapse-1"
+            >
+              <ul class="nav navbar-nav">
+                <li class="">
+                  <a href="#">Link <span class="sr-only">(current)</span></a>
+                </li>
+                <li><a href="#">Link</a></li>
+                <li class="dropdown">
+                  <a
+                    href="#"
+                    class="dropdown-toggle"
+                    data-toggle="dropdown"
+                    role="button"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                    >Dropdown <span class="caret"></span
+                  ></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">Separated link</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">One more separated link</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <div id="header-img"></div>
+      </header>
+      <section class="content container" id="content"></section>
+      <footer class="row" id="footer">
+        <div class="col-lg-offset-2 col-lg-8 text-center">
+          <div class="col-lg-2"><a href="#">About us</a></div>
+          <div class="col-lg-4"><a href="#">Terms and Conditions</a></div>
+          <div class="col-lg-2"><a href="#">Contact us</a></div>
+          <div class="col-lg-2"><a href="#">Earn with us</a></div>
+          <div class="col-lg-2"><a href="#">Blog</a></div>
+        </div>
+        <div class="col-lg-offset-1 col-lg-10 text-center">
+          <p>PaperHelp.org – your rocket to writingsuccess</p>
+          <p>Student help for research and samplepurposes only.</p>
+          <p>Copyright PaperHelp.org 2008-2020</p>
+        </div>
+      </footer>
+    </div>
+    <script src="/lib/jquery-2.0.0/jquery.js"></script>
+    <script src="/lib/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+    <script src="/js/config.js"></script>
+    <script src="/js/utils.js"></script>
+    <script>
+      utils.load(config.module.joinUs);
+    </script>
+  </body>
+</html>
