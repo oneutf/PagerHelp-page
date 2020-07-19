@@ -93,8 +93,9 @@ header .navbar {
   width: 250px;
   height: 60px;
 }
-#joinUs .row:nth-of-type(1) .panel-body .btn.hidden-xs span {
-  font-weight: 500;
+#joinUs .row:nth-of-type(1) .panel-body .btn.visible-xs-block {
+  background: #fbb40d;
+  border-radius: 5rem;
 }
 #joinUs .row:nth-of-type(1) .padding-bottom-md {
   padding-bottom: 200px;
