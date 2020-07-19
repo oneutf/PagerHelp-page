@@ -9,8 +9,16 @@
       href="./lib/bootstrap-3.3.7-dist/css/bootstrap.css"
     />
     <link rel="stylesheet" href="./css/main.css" />
+    <link
+      rel="stylesheet"
+      href="./lib/bootstrap-select/css/bootstrap-select.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./lib/bootstrap-datepicker/css/bootstrap-datepicker.css"
+    />
   </head>
-  <body>
+  <body style="overflow-x: hidden;">
     <div class="container-fluid">
       <header class="row" id="header">
         <nav class="navbar navbar-default navbar-fixed-top">
@@ -65,8 +73,8 @@
         </nav>
         <div id="header-img"></div>
       </header>
-      <section class="content container" id="content"></section>
-      <footer class="row" id="footer">
+      <section class="content" id="content"></section>
+      <!-- <footer class="row" id="footer">
         <div class="col-sm-offset-2 col-sm-8 text-center">
           <div class="col-sm-2"><a href="#">About us</a></div>
           <div class="col-sm-4"><a href="#">Terms and Conditions</a></div>
@@ -79,14 +87,16 @@
           <p>Student help for research and samplepurposes only.</p>
           <p>Copyright PaperHelp.org 2008-2020</p>
         </div>
-      </footer>
+      </footer> -->
     </div>
     <script src="./lib/jquery-2.0.0/jquery.js"></script>
     <script src="./lib/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+    <script src="./lib/bootstrap-select/js/bootstrap-select.js"></script>
+    <script src="./lib/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>
     <script src="./js/config.js"></script>
     <script src="./js/utils.js"></script>
     <script>
-      utils.load(config.module.joinUs);
+      utils.load(config.module.home);
     </script>
   </body>
 </html>

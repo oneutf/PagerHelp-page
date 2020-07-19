@@ -7,3 +7,7 @@ var config = {
 config.module.joinUs = {
   url: "./page/joinUs.html"
 };
+// home
+config.module.home = {
+  url: "./page/home.html"
+};

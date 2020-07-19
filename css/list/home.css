@@ -1,0 +1,15 @@
+.row:nth-of-type(1) .panel-body .btn-group {
+  width: 100%;
+}
+
+.row:nth-of-type(1) .panel-body button {
+  width: 100%;
+}
+.row:nth-of-type(1) .panel-body .btn-submit {
+  height: 5rem;
+  width: 100%;
+  border-radius: 2rem;
+  font-weight: bold;
+  line-height: 5rem;
+  background: #fbb40d;
+}
