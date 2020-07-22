@@ -4,6 +4,26 @@
 }
 .row:nth-of-type(1) .panel-body button {
   width: 100%;
+  height: 4.5rem;
+  border: none;
+  outline: none;
+}
+.row:nth-of-type(1) .panel-body button:focus {
+  background: linear-gradient(180deg, #4e3d95 0, #3a2e60 100%) !important;
+  border-radius: 1rem !important;
+  color: #fff;
+  position: relative;
+  box-shadow: 0rem 0.5rem 1.7rem 0rem #392e66;
+  border-color: transparent;
+}
+.row:nth-of-type(1) .panel-body .count_select .filter-option {
+  line-height: 3.3rem;
+}
+.row:nth-of-type(1) .count_input {
+  height: 4.5rem;
+}
+.row:nth-of-type(1) .datepicker {
+  height: 4.5rem;
 }
 .row:nth-of-type(1) .panel-body .btn-submit {
   height: 5rem;
@@ -13,15 +33,92 @@
   line-height: 5rem;
   background: #fbb40d;
 }
-.row:nth-of-type(1) .well {
-  height: 232px;
-}
 /* .row:nth-of-type(2) */
 /* .row:nth-of-type(3) */
 /* .row:nth-of-type(4) */
 /* .row:nth-of-type(5) */
-.row:nth-of-type(5) .paper-number {
-  background-color: #ff0000;
+.row:nth-of-type(5) .panel {
+  padding: 2rem 0rem;
+}
+.row:nth-of-type(5) .btn {
+  margin-top: 2.5rem;
+  height: 6rem;
+  width: 28rem;
+  border-radius: 5rem;
+  line-height: 4.8rem;
+  border: 1px solid #392e66;
+  color: #392e66;
+  transition-duration: 0.5s;
+}
+.row:nth-of-type(5) .btn:hover {
+  background-color: #392e66;
+  color: #ffffff;
 }
 /* .row:nth-of-type(6) */
+.row:nth-of-type(6) .paper-number {
+  display: inline-block;
+  width: 6rem;
+  height: 8rem;
+  border-radius: 1rem;
+  line-height: 8rem;
+  text-align: center;
+  font-size: 3.6rem;
+  border: 0.1rem solid #e5e5e5;
+  color: #392e66;
+}
+.row:nth-of-type(6) .paper-number-xs {
+  display: inline-block;
+  width: 5rem;
+  height: 7rem;
+  border-radius: 1rem;
+  line-height: 8rem;
+  text-align: center;
+  font-size: 3.6rem;
+  border: 0.1rem solid #e5e5e5;
+  color: #392e66;
+}
+.row:nth-of-type(6) .title {
+  font-family: Gotham Pro;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 1;
+  font-size: 3.6rem;
+  text-align: center;
+  color: #392e66;
+}
+.row:nth-of-type(6) .content {
+  font-family: Gotham Pro;
+  font-style: normal;
+  line-height: 2rem;
+  font-size: 1.4rem;
+  text-align: center;
+  color: #4c4c4c;
+  font-weight: bold;
+}
 /* .row:nth-of-type(7) */
+.row:nth-of-type(7) .title {
+  position: relative;
+  font-family: Gotham Pro;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 3.4rem;
+  font-size: 1.8rem;
+  margin-bottom: 17rem;
+}
+.row:nth-of-type(7) .title-2 {
+  font-weight: bold;
+  text-align: center;
+  font-size: 4rem;
+}
+.row:nth-of-type(7) .content-2 {
+  font-weight: bold;
+  text-align: center;
+  font-size: 7rem;
+  color: #fbb40d;
+}
+/* .row:nth-of-type(8) */
+.row:nth-of-type(8) .star {
+  background: url("../../imgs/home/testimonials-star.svg");
+  background-size: 100% 100%;
+  height: 16px;
+}
