@@ -1,0 +1,151 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.a1 {
+    width: 100%;
+    height: 90px;
+    line-height: 88px;
+    padding: 0 10px;
+    border-top: 1px #ccc solid;
+    border-bottom: 1px #ccc solid;
+}
+.aa1 {
+    width: 129px;
+    height: 32px;
+}
+.aa1 img {
+    width: 100%;
+    height: 100%;
+}
+.b1 {
+    width: 100%;
+    height: 76px;
+    margin-top: 40px;
+}
+.bb1 {
+    /* width: 200px; */
+    height: 34px;
+    /* margin-left: 35%; */
+    text-align: center;
+    font-size: 26px;
+}
+.bbb1 {
+    /* width: 143px; */
+    height: 42px;
+    /* margin-left: 41%; */
+    text-align: center;
+    margin-top: 20px;
+    color: #ccc;
+}
+.ccc1 {
+    width: 100%;
+    height: 693px;
+    margin-top: 30px;
+    padding: 4px 40px;
+    background-color: #F5F9FC;
+}
+.form-group1 {
+    margin: 40px 0 ;
+}
+#input_email_log1 {
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    border: 0;
+    padding: 0 15px;
+}
+.form-group2 {
+    margin-top: 40px;
+}
+.form-check22 {
+    /* margin-left: 30%; */
+}
+.btn-form1 {
+    display: inline;
+    /* margin-left: 20px; */
+    
+}
+.nunu {
+    margin: 40px 0 !important;
+}
+.log1 {
+    /* width: 374px; */
+    height: 60px;
+    /* margin-left: 15%; */
+}
+.form-check-text1 {
+    width: 184px;
+    height: 22px;
+    /* margin-left: 70%; */
+    margin-top: 40px;
+}
+.form-check-input1 {
+    margin-left: -5%;
+}
+/* .form-check-label1 {
+    width: 200px;
+    height: 20px;
+} */
+.btn-custom1 {
+    width: 250px;
+    height: 60px;
+    /* margin-left: 65px; */
+    border-radius: 30px;
+    border: 0;
+    background-color: darkorange;
+}
+.jjj1 {
+    /* width: 374px; */
+    height: 174px;
+    /* margin-left: 15%; */
+}
+.hint1 {
+    /* margin-left: 90px; */
+    /* width: 226px; */
+    height: 74px;
+    line-height: 74px;
+    /* padding-left: 90px; */
+}
+.centerss1 {
+    /* width: 276px; */
+    height: 40px;
+    margin: 0 auto;
+    /* margin-bottom: 40px; */
+    /* background-color: deeppink; */
+}
+.btnn1 {
+    /* margin-left: 5px; */
+    width: 128px;
+    height: 40px;
+    border: 0;
+    background-color: lightskyblue;
+}
+.btnn11 {
+    /* margin-left: 5px; */
+    width: 128px;
+    height: 40px;
+    border: 0;
+    background-color: #fff;
+}
+.sss1 {
+    width: 18px;
+    height: 18px;
+}
+.sss1 img {
+    width: 18px;
+    height: 18px;
+}
+.change1 {
+    margin-top: 50px;
+    /* width: 374px; */
+    text-align: center;
+    height: 60px;
+    line-height: 90px;
+    /* background-color: darkturquoise; */
+}
+.inners1 {
+    width: 260px;
+    height: 20px;
+    margin: 0 auto;
+}
