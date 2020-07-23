@@ -16,6 +16,9 @@
   box-shadow: 0rem 0.5rem 1.7rem 0rem #392e66;
   border-color: transparent;
 }
+.row:nth-of-type(1) .panel {
+  box-shadow: 0 1.5rem 2rem rgba(0, 0, 0, 0.15);
+}
 .row:nth-of-type(1) .panel-body .count_select .filter-option {
   line-height: 3.3rem;
 }
@@ -125,6 +128,9 @@
   background-size: 100% 100%;
   height: 16px;
 }
+.row:nth-of-type(8) .btn {
+  border-radius: 2rem;
+}
 /* .row:nth-of-type(9) */
 .row:nth-of-type(9) .title {
   font-weight: bold;
@@ -141,9 +147,9 @@
   text-decoration: none;
 }
 /* .row:nth-of-type(10) */
-.row:nth-of-type(10) .panel{
+.row:nth-of-type(10) .panel {
   padding: 2rem;
-  box-shadow: 0 1rem 4.5rem rgba(47, 45, 133, .1);
+  box-shadow: 0 1rem 4.5rem rgba(47, 45, 133, 0.1);
 }
 .row:nth-of-type(10) .title {
   text-align: center;
