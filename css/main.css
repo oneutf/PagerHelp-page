@@ -33,6 +33,9 @@ p {
 .clear-padding-right{
   padding-right: 0rem;
 }
+.clear-border{
+  border: none !important;
+}
 .padding-top-xs {
   padding-top: 1rem;
 }
@@ -67,6 +70,10 @@ p {
 .panel-blue {
   background: #f5f9fc;
   border: none;
+}
+.shadow-default{
+  border-radius: 2rem;
+  box-shadow: 0 1rem 4.5rem rgba(47, 45, 133, .1);
 }
 /* header */
 header .navbar {
