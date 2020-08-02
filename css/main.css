@@ -75,6 +75,15 @@ p {
   border-radius: 2rem;
   box-shadow: 0 1rem 4.5rem rgba(47, 45, 133, .1);
 }
+.black-font{
+  color: #000000;
+}
+.clear-list{
+  list-style: none;
+}
+.list-alpha{
+  list-style: lower-alpha;
+}
 /* header */
 header .navbar {
   padding: 0;

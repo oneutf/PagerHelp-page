@@ -11,3 +11,7 @@ config.module.joinUs = {
 config.module.home = {
   url: "./page/home.html"
 };
+// studyList
+config.module.studyList = {
+  url: "./page/studyList.html"
+};
