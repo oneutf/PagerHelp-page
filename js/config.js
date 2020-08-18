@@ -15,3 +15,7 @@ config.module.home = {
 config.module.studyList = {
   url: "./page/studyList.html"
 };
+// blogList
+config.module.blogList = {
+  url: "./page/blogList.html"
+};

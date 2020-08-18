@@ -1,0 +1,91 @@
+.nav-pills > li.active > a::before {
+  background: linear-gradient(180deg, #231e33 17.73%, #431c48 100%);
+}
+.nav-pills > li > a {
+  color: #000000;
+  font-weight: bold;
+  background: url(../../imgs/blogList/nav-sidebar-arrow.svg) top 50% right 15px
+    no-repeat #f5f9fc;
+}
+h4 {
+  color: #000000;
+  font-weight: bold;
+}
+.panel {
+  margin-bottom: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0rem 1rem 4.5rem rgba(47, 45, 133, 0.1);
+  border: none;
+}
+.study-form {
+  background-image: url("../../imgs/studyList/post-navigation-block-bg.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding-top: 30rem;
+}
+.btns-a label {
+  height: 4.5rem;
+  line-height: 3rem;
+}
+.btn-group-a {
+  width: 100%;
+}
+.btn-group-a button {
+  width: 100%;
+  height: 4.5rem;
+  border: none;
+  outline: none;
+}
+.btn-group-a button:hover {
+  background: linear-gradient(180deg, #4e3d95 0, #3a2e60 100%) !important;
+  border-radius: 1rem !important;
+  color: #fff;
+  position: relative;
+  box-shadow: 0rem 0.5rem 1.7rem 0rem #392e66;
+  border-color: transparent;
+}
+.btn-group-b {
+  width: 100%;
+}
+.btn-group-b button {
+  width: 100%;
+  height: 4.5rem;
+  border: none;
+  outline: none;
+}
+.btn-group-b button:hover {
+  background: linear-gradient(180deg, #4e3d95 0, #3a2e60 100%) !important;
+  border-radius: 1rem !important;
+  color: #fff;
+  position: relative;
+  box-shadow: 0rem 0.5rem 1.7rem 0rem #392e66;
+  border-color: transparent;
+}
+.count_input,
+.datepicker-a {
+  height: 4.5rem;
+}
+.btn-submit {
+  height: 5rem;
+  width: 100%;
+  border-radius: 2rem;
+  font-weight: bold;
+  line-height: 5rem;
+  background: #fbb40d;
+}
+.img-form-a {
+  position: absolute;
+  left: 20%;
+}
+.panel-blue-a {
+  border-radius: 1rem;
+}
+.img-form-b {
+  position: absolute;
+  padding-top: 25rem;
+  left: 30%;
+  z-index: 1;
+}
+.form-buttom {
+  height: 30rem;
+}

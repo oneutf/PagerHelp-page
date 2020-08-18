@@ -39,9 +39,12 @@
 /* .row:nth-of-type(3) */
 /* .row:nth-of-type(4) */
 /* .row:nth-of-type(5) */
-.row:nth-of-type(5){
-  background-color: #f5f9fc;
-  border-radius: 5rem 5rem / 50%;
+#why-us-img {
+  position: absolute;
+  right: 0rem;
+  height: 120rem;
+  background-image: url(../../imgs/home/howitwork-bg.svg);
+  background-repeat: no-repeat;
 }
 /* .row:nth-of-type(6) */
 .row:nth-of-type(6) .panel {
@@ -124,7 +127,7 @@
   color: #fbb40d;
 }
 /* .row:nth-of-type(9) */
-.row:nth-of-type(9){
+.row:nth-of-type(9) {
   background-color: #f5f9fc;
   border-radius: 5rem 5rem / 50%;
 }
